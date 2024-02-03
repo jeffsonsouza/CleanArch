@@ -72,7 +72,7 @@ public class CategoryRepository : ICategoryRepository {
             return category;
         }
         catch {
-
+            throw;
         }
     }
 }
